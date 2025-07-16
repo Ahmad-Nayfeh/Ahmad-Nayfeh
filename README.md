@@ -18,7 +18,7 @@ I see AI not as a magic box, but as a powerful engineering partner. With the rig
 - **AI & Machine Learning Expertise:**
   `Deep Learning` `Machine Learning` `Computer Vision` `CNNs` `U-Net` `YOLO` `Image Segmentation` `Object Detection`
 - **Data Engineering & Advanced Concepts:**
-  `Data Pipelines` `API Integration` `NoSQL (Firebase)` `Docker` `Streamlit` `Transfer Learning` `Self-Supervised Learning` `Prompt Engineering`
+  `Data Pipelines` `API Integration` `NoSQL (Firebase)` `Streamlit` `Transfer Learning` `Self-Supervised Learning` `Prompt Engineering`
 
 ---
 
