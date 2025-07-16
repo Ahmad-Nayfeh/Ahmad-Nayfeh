@@ -1,45 +1,43 @@
-# 👋 Hi, I'm Ahmad Nayfeh
+# Hi, I'm Ahmad Nayfeh 👋
+**AI Engineer & Data Scientist**
 
-I'm an Electrical Engineer and AI researcher passionate about building reproducible pipelines in **computer vision**, **signal processing**, and **self-supervised learning**. I create highly visual, educational tools that bridge theoretical depth with real-world applications.
-
----
-
-## 💼 About Me
-
-I’m an **Electrical Engineering graduate from KFUPM**, specialized in **signal processing** and **image processing**. Over time, I’ve become deeply invested in the world of **artificial intelligence** and **computer vision**, where I focus on building tools that combine rigorous engineering with human-centered design.
-
-🔍 I don’t see AI as a magic box — but as a powerful extension of human thinking. With the right guidance, prompting, and understanding of its capabilities, AI becomes a force multiplier — enabling us to achieve **extraordinary results with less effort**.
-
-🧠 My **[personal website](https://ahmadnayfeh.vercel.app)** was built entirely through AI — not with one prompt, but through a structured, multi-step process. From design to content, I guided AI to build each part using clear prompts and deep tool understanding. It’s proof that with the right mindset, **AI can become a powerful engineering partner — not just a shortcut**.
-
-🚀 My mission is to **harness AI to simplify life, magnify impact, and build tools that teach, assist, and inspire**.
+I build end-to-end intelligent systems that solve real-world problems. My work spans **Computer Vision**, **Signal Processing**, and **Data Engineering**—transforming complex data into production-ready applications.
 
 ---
 
-## 🔧 Tools & Frameworks
+### 💡 About Me
+As an M.Sc. candidate at KFUPM, I specialize in applying deep learning to practical challenges. My focus is on delivering complete, data-driven solutions.
 
-`Python` · `scikit-learn` · `OpenCV` · `Streamlit` · `NumPy` · `Matplotlib` · `SimCLR` · `YOLOv8` · `CI/CD` 
-
----
-
-## 🌐 Connect With Me
-
-- 🌍 Website: [ahmadnayfeh.vercel.app](https://ahmadnayfeh.vercel.app)
-- 💼 LinkedIn: [linkedin.com/in/ahmad-nayfeh2000](https://www.linkedin.com/in/ahmad-nayfeh2000/)
----
-
-## 📌 Pinned Projects
-
-Here are a few things I’ve worked on recently:
-
-- 🎛️ [Frequency Decomposition Explorer](https://github.com/nahmad2000/Frequency-Decomposition-Explorer) – FFT visual tool for signals and images  
-- 🧠 [Self-Supervised SimCLR Platform](https://github.com/nahmad2000/simclr-stl10-augmentations) – Augmentation strategy research on STL-10  
-- 📈 [Wind Power Forecasting](https://github.com/nahmad2000/WindPowerForecasting-LSTM-RF) – LSTM vs Hybrid RF for renewable energy  
-- 🧩 [Image Processing Toolkit](https://github.com/nahmad2000/Digital-Image-Processing) – 10+ educational modules with interactive visuals  
+I see AI not as a magic box, but as a powerful engineering partner. With the right guidance and a deep understanding of its capabilities, AI becomes a force multiplier, enabling us to achieve extraordinary results with less effort. My goal is to build tools that teach, assist, and inspire.
 
 ---
 
-## 📫 Let’s Collaborate
+### 🛠️ Technical Skills
+- **Languages & Core Frameworks:**
+  `Python` `SQL` `Git` `Pandas` `NumPy` `Scikit-learn` `PyTorch` `TensorFlow` `Keras`
+- **AI & Machine Learning Expertise:**
+  `Deep Learning` `Machine Learning` `Computer Vision` `CNNs` `U-Net` `YOLO` `Image Segmentation` `Object Detection`
+- **Data Engineering & Advanced Concepts:**
+  `Data Pipelines` `API Integration` `NoSQL (Firebase)` `Docker` `Streamlit` `Transfer Learning` `Self-Supervised Learning` `Prompt Engineering`
 
-I’m always open to meaningful research, engineering collaborations, and visual AI tools.  
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/ahmad-nayfeh2000/) or [my website](https://ahmadnayfeh.vercel.app).
+---
+
+### 🚀 Key Projects
+Here are a few of my recent projects. You can find more on my [portfolio website](https://ahmadnayfeh.vercel.app/).
+
+- **🏆 [Cloud-Native Reading Analytics Platform](https://github.com/Ahmad-Nayfeh/Reading-Tracker-Dashboard-Cloud)**
+  - A full-stack data product built with Firebase & Google Cloud APIs to manage and gamify group reading challenges.
+  
+- **🧠 [AI-Powered MRI Brain Tumor Segmentation](https://github.com/Ahmad-Nayfeh/MRI-Tumor-Segmentation)**
+  - An end-to-end system achieving **96.34% Dice Score** on the BraTS dataset using a ResNet-UNet, deployed as an interactive Streamlit app.
+
+- **⚙️ [AI-Powered Bearing Fault Diagnosis](https://github.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis)**
+  - A 1D CNN pipeline for predictive maintenance that diagnoses industrial faults from vibration signals with 100% accuracy on clean data.
+
+---
+
+### 📫 Let's Connect
+I'm always open to meaningful collaborations and challenging opportunities in AI and data science. Feel free to reach out!
+
+- 🌍 **Portfolio:** [ahmadnayfeh.vercel.app](https://ahmadnayfeh.vercel.app)
+- 💼 **LinkedIn:** [linkedin.com/in/ahmad-nayfeh2000](https://www.linkedin.com/in/ahmad-nayfeh2000)
