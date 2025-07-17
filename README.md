@@ -50,6 +50,3 @@ Developed a ResNet-UNet model achieving a **96.34% Dice Score** on the BraTS dat
 Built a predictive maintenance pipeline using a custom 1D CNN for time-series classification of industrial bearing faults. Addressed severe class imbalance with SMOTE and validated model robustness by adding AWGN, maintaining perfect accuracy at 25% noise and graceful degradation to 87% at 50% noise.
 
 **[View Project](https://github.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis)**
-
-### Additional Projects
-I also have experience developing reproducible research frameworks for **Self-Supervised Learning** ([View Project](https://github.com/Ahmad-Nayfeh/Modular-SimCLR-Transformations)) and building systems for **real-time object detection**.
