@@ -28,9 +28,9 @@ As an M.Sc. candidate at KFUPM with a foundation in Electrical Engineering, I am
 
 | Category | Technologies & Tools |
 |:---------|:---------------------|
-| **AI & Machine Learning** | `PyTorch` `TensorFlow` `Keras` `Scikit-learn` `Deep Learning` `Computer Vision (U-Net, YOLO)` `Signal Processing (1D CNNs)` `Self-Supervised Learning (SimCLR)` `Transfer Learning` |
+| **AI & Machine Learning** | `PyTorch` `Keras` `Scikit-learn` `Signal Processing` `Image Processing` `Deep Learning` `Computer Vision` |
 | **Data Engineering & Cloud** | `Data Pipelines` `ETL` `SQL` `Pandas` `NumPy` `Firebase (Firestore)` `Google Cloud APIs` `API Integration` `Streamlit` |
-| **Programming & Tools** | `Python` `Git` `GitHub` `Docker` `LaTeX` `YAML` |
+| **Programming & Tools** | `Python` `Git` `GitHub` `LaTeX` `YAML` |
 
 ---
 
@@ -52,4 +52,4 @@ Built a predictive maintenance pipeline using a custom 1D CNN for time-series cl
 **[View Project](https://github.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis)**
 
 ### Additional Projects
-I also have experience developing reproducible research frameworks for **Self-Supervised Learning** ([Modular SimCLR](https://github.com/Ahmad-Nayfeh/SimCLR-Augmentation-Analysis-CIFAR-10)) and building systems for **real-time object detection**.
+I also have experience developing reproducible research frameworks for **Self-Supervised Learning** ([View Project](https://github.com/Ahmad-Nayfeh/Modular-SimCLR-Transformations)) and building systems for **real-time object detection**.
