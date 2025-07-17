@@ -34,7 +34,7 @@ As an M.Sc. candidate at KFUPM with a foundation in Electrical Engineering, I am
 
 ---
 
-## 🚀 My Projects
+## 🚀 Key Projects
 
 ### 🏆 Cloud-Native Reading Analytics Platform
 Architected a full-stack, multi-tenant data product to manage and gamify group reading challenges. Features a complete ETL pipeline using Google Cloud APIs and Firebase, a dynamic gamification engine, and automated PDF reporting.
