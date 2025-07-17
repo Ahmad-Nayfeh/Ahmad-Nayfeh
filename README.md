@@ -41,30 +41,15 @@ Architected a full-stack, multi-tenant data product to manage and gamify group r
 
 **[View Project](https://github.com/Ahmad-Nayfeh/Reading-Tracker-Dashboard-Cloud)**
 
-<img src="https://raw.githubusercontent.com/Ahmad-Nayfeh/Reading-Tracker-Dashboard-Cloud/main/images/architecture-diagram.png" alt="Reading Platform Architecture" width="500">
-
 ### 🧠 AI-Powered MRI Brain Tumor Segmentation
 Developed a ResNet-UNet model achieving a **96.34% Dice Score** on the BraTS dataset, outperforming typical human-expert consistency. The end-to-end system includes a robust 3D-to-2D preprocessing pipeline, a hybrid BCE+Dice loss function, and is deployed as an interactive Streamlit app.
 
 **[View Project](https://github.com/Ahmad-Nayfeh/MRI-Tumor-Segmentation)**
-
-<img src="https://raw.githubusercontent.com/Ahmad-Nayfeh/MRI-Tumor-Segmentation/main/assets/streamlit-demo.png" alt="MRI Segmentation App" width="500">
 
 ### ⚙️ AI-Powered Bearing Fault Diagnosis
 Built a predictive maintenance pipeline using a custom 1D CNN for time-series classification of industrial bearing faults. Addressed severe class imbalance with SMOTE and validated model robustness by adding AWGN, maintaining perfect accuracy at 25% noise and graceful degradation to 87% at 50% noise.
 
 **[View Project](https://github.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis)**
 
-<img src="https://raw.githubusercontent.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis/main/assets/streamlit-demo.png" alt="Bearing Fault Diagnosis App" width="500">
-
 ### Additional Projects
 I also have experience developing reproducible research frameworks for **Self-Supervised Learning** ([Modular SimCLR](https://github.com/Ahmad-Nayfeh/SimCLR-Augmentation-Analysis-CIFAR-10)) and building systems for **real-time object detection**.
-
----
-
-## 📊 My GitHub Stats
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Ahmad-Nayfeh&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmad-Nayfeh&layout=compact&theme=tokyonight" />
-</p>
