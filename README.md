@@ -1,36 +1,40 @@
-<a href="https://ahmadnayfeh.vercel.app">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" width="100%" alt="Ahmad Nayfeh, Electrical Design Engineer and AI Automation">
-  </picture>
-</a>
+<a href="https://ahmadnayfeh.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Ahmad Nayfeh, Electrical Design Engineer and AI Automation"></picture></a>
 
-I design medium-voltage switchgear at Alfanar's Secondary Switchgear Factory (RMU, MRMU, LBS and autoreclosers), and I build the software that removes the repetitive work around it. Outside work I ship small, carefully made apps in Arabic.
+<p align="center">
+  <a href="https://ahmadnayfeh.vercel.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://ahmadnayfeh.vercel.app/resume.pdf"><b>CV</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/ahmad-nayfeh2000/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="mailto:ahmadnayfeh2000@gmail.com"><b>Email</b></a>
+</p>
 
-[Portfolio](https://ahmadnayfeh.vercel.app) · [CV](https://ahmadnayfeh.vercel.app/resume.pdf) · [LinkedIn](https://www.linkedin.com/in/ahmad-nayfeh2000/) · [Email](mailto:ahmadnayfeh2000@gmail.com)
+<br>
 
-### Now
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-products-dark.svg"><img src="assets/h-products-light.svg" width="100%" alt="Products"></picture>
 
-- **Working:** Electrical Design Engineer, Alfanar · Riyadh, since January 2026
-- **Building:** Shadhra, Khatwa and Reading Marathon
-- **Studying:** M.Sc. in Electrical Engineering, KFUPM · thesis on retinal image synthesis
+<p align="center">
+  <a href="https://shadhra.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shadhra-dark.svg"><img src="assets/card-shadhra-light.svg" width="32%" alt="Shadhra"></picture></a>
+  <a href="https://ahmad-nayfeh.github.io/khatwa/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-khatwa-dark.svg"><img src="assets/card-khatwa-light.svg" width="32%" alt="Khatwa"></picture></a>
+  <a href="https://ahmad-nayfeh.github.io/marathon/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-marathon-dark.svg"><img src="assets/card-marathon-light.svg" width="32%" alt="Reading Marathon"></picture></a>
+</p>
 
-### Products
+<br>
 
-| Product | What it does | Get it |
-|:--|:--|:--|
-| **[Shadhra](https://shadhra.app)** | Save quotes from printed books: photograph a page, extract the Arabic or English text, and resurface your library every day. FastAPI, React, Expo. | [Web](https://shadhra.app) · [Google Play](https://play.google.com/store/apps/details?id=app.shadhra) |
-| **[Khatwa](https://ahmad-nayfeh.github.io/khatwa/)** | A walking app that plays like a game: daily quests, levels and streaks, an optional phone lock until you walk, and walk suggestions timed around weather and prayer times. Kotlin, Jetpack Compose. | [Download](https://ahmad-nayfeh.github.io/khatwa/) |
-| **[Reading Marathon](https://ahmad-nayfeh.github.io/marathon/)** | For reading groups: one shared book per challenge, a daily reading log, points, badges, analytics and PDF reports. Kotlin, Jetpack Compose, Firebase. | [Download](https://ahmad-nayfeh.github.io/marathon/) |
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-research-dark.svg"><img src="assets/h-research-light.svg" width="100%" alt="Research"></picture>
 
-### Research
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/research-dark.svg"><img src="assets/research-light.svg" width="100%" alt="Research results"></picture>
 
-- **[Distill-SSL](https://github.com/Ahmad-Nayfeh/Distill-SSL)**: 25 experiments on STL-10. SimCLR, BYOL and DINO teachers (ResNet-18) distilled into a MobileNetV3-Small student with single, ensemble and progressive strategies.
-- **[MRI tumor segmentation](https://github.com/Ahmad-Nayfeh/MRI-Tumor-Segmentation)**: three U-Net variants on BraTS-Africa. 0.963 Dice with a pretrained ResNet34 encoder, measured on a slice-level split, so an optimistic estimate.
-- **[Bearing fault diagnosis](https://github.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis)**: a 1D CNN on raw CWRU vibration signals, tested on an unseen motor load and under added noise (holds at 25%, fails past 50%).
+<p align="center">
+  <a href="https://github.com/Ahmad-Nayfeh/Distill-SSL">Distill-SSL</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Ahmad-Nayfeh/MRI-Tumor-Segmentation">MRI tumor segmentation</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis">Bearing fault diagnosis</a>
+</p>
 
-### Toolbox
+<br>
 
-- **Engineering:** medium-voltage switchgear design, single-line and wiring diagrams
-- **Software:** Python, TypeScript, Kotlin, FastAPI, React, Next.js, Jetpack Compose, Firebase
-- **Machine learning:** PyTorch, computer vision, signal processing, LLM tooling and automation
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-toolbox-dark.svg"><img src="assets/h-toolbox-light.svg" width="100%" alt="Bill of materials"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/bom-dark.svg"><img src="assets/bom-light.svg" width="100%" alt="Toolbox"></picture>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><img src="assets/footer-light.svg" width="100%" alt="Title block"></picture>
