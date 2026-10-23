@@ -11,15 +11,13 @@ I design medium-voltage switchgear at Alfanar's Secondary Switchgear Factory (RM
 
 ### Now
 
-| | |
-|:--|:--|
-| **Working** | Electrical Design Engineer, Alfanar · Riyadh, since January 2026 |
-| **Building** | Shadhra, Khatwa and Reading Marathon |
-| **Studying** | M.Sc. in Electrical Engineering, KFUPM · thesis on retinal image synthesis |
+- **Working:** Electrical Design Engineer, Alfanar · Riyadh, since January 2026
+- **Building:** Shadhra, Khatwa and Reading Marathon
+- **Studying:** M.Sc. in Electrical Engineering, KFUPM · thesis on retinal image synthesis
 
 ### Products
 
-| | | |
+| Product | What it does | Get it |
 |:--|:--|:--|
 | **[Shadhra](https://shadhra.app)** | Save quotes from printed books: photograph a page, extract the Arabic or English text, and resurface your library every day. FastAPI, React, Expo. | [Web](https://shadhra.app) · [Google Play](https://play.google.com/store/apps/details?id=app.shadhra) |
 | **[Khatwa](https://ahmad-nayfeh.github.io/khatwa/)** | A walking app that plays like a game: daily quests, levels and streaks, an optional phone lock until you walk, and walk suggestions timed around weather and prayer times. Kotlin, Jetpack Compose. | [Download](https://ahmad-nayfeh.github.io/khatwa/) |
