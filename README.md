@@ -1,52 +1,38 @@
-# Hi, I'm Ahmad Nayfeh 👋
-### AI Engineer & Data Scientist
+<a href="https://ahmadnayfeh.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" width="100%" alt="Ahmad Nayfeh, Electrical Design Engineer and AI Automation">
+  </picture>
+</a>
 
-I build end-to-end intelligent systems that solve real-world problems. My work spans **Computer Vision**, **Signal Processing**, and **Data Engineering**—transforming complex data into production-ready applications.
+I design medium-voltage switchgear at Alfanar's Secondary Switchgear Factory (RMU, MRMU, LBS and autoreclosers), and I build the software that removes the repetitive work around it. Outside work I ship small, carefully made apps in Arabic.
 
-<p align="left">
-  <a href="https://ahmadnayfeh.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://linkedin.com/in/ahmad-nayfeh2000" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
+[Portfolio](https://ahmadnayfeh.vercel.app) · [CV](https://ahmadnayfeh.vercel.app/resume.pdf) · [LinkedIn](https://www.linkedin.com/in/ahmad-nayfeh2000/) · [Email](mailto:ahmadnayfeh2000@gmail.com)
 
----
+### Now
 
-## 💡 About Me
+| | |
+|:--|:--|
+| **Working** | Electrical Design Engineer, Alfanar · Riyadh, since January 2026 |
+| **Building** | Shadhra, Khatwa and Reading Marathon |
+| **Studying** | M.Sc. in Electrical Engineering, KFUPM · thesis on retinal image synthesis |
 
-As an M.Sc. candidate at KFUPM with a foundation in Electrical Engineering, I am passionate about the entire lifecycle of AI systems. My philosophy is to use AI not as a black box, but as a powerful engineering partner to create solutions that are robust, efficient, and impactful.
+### Products
 
-- 🔭 **I'm currently working on** enhancing my skills in MLOps and scalable model deployment
-- 🌱 **My core focus is on** building reproducible data pipelines and developing solutions from ideation to production
-- 📫 **I'm open to** collaborating on innovative projects and discussing challenging opportunities in AI and data science
+| | | |
+|:--|:--|:--|
+| **[Shadhra](https://shadhra.app)** | Save quotes from printed books: photograph a page, extract the Arabic or English text, and resurface your library every day. FastAPI, React, Expo. | [Web](https://shadhra.app) · [Google Play](https://play.google.com/store/apps/details?id=app.shadhra) |
+| **[Khatwa](https://ahmad-nayfeh.github.io/khatwa/)** | A walking app that plays like a game: daily quests, levels and streaks, an optional phone lock until you walk, and walk suggestions timed around weather and prayer times. Kotlin, Jetpack Compose. | [Download](https://ahmad-nayfeh.github.io/khatwa/) |
+| **[Reading Marathon](https://ahmad-nayfeh.github.io/marathon/)** | For reading groups: one shared book per challenge, a daily reading log, points, badges, analytics and PDF reports. Kotlin, Jetpack Compose, Firebase. | [Download](https://ahmad-nayfeh.github.io/marathon/) |
 
----
+### Research
 
-## 🛠️ My Tech Stack
+- **[Distill-SSL](https://github.com/Ahmad-Nayfeh/Distill-SSL)**: 25 experiments on STL-10. SimCLR, BYOL and DINO teachers (ResNet-18) distilled into a MobileNetV3-Small student with single, ensemble and progressive strategies.
+- **[MRI tumor segmentation](https://github.com/Ahmad-Nayfeh/MRI-Tumor-Segmentation)**: three U-Net variants on BraTS-Africa. 0.963 Dice with a pretrained ResNet34 encoder, measured on a slice-level split, so an optimistic estimate.
+- **[Bearing fault diagnosis](https://github.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis)**: a 1D CNN on raw CWRU vibration signals, tested on an unseen motor load and under added noise (holds at 25%, fails past 50%).
 
-| Category | Technologies & Tools |
-|:---------|:---------------------|
-| **AI & Machine Learning** | `PyTorch` `Keras` `Scikit-learn` `Signal Processing` `Image Processing` `Deep Learning` `Computer Vision` |
-| **Data Engineering & Cloud** | `Data Pipelines` `ETL` `SQL` `Pandas` `NumPy` `Firebase (Firestore)` `Google Cloud APIs` `API Integration` `Streamlit` |
-| **Programming & Tools** | `Python` `Git` `GitHub` `LaTeX` `YAML` |
+### Toolbox
 
----
-
-## 🚀 Key Projects
-
-### 🏆 Cloud-Native Reading Analytics Platform
-Architected a full-stack, multi-tenant data product to manage and gamify group reading challenges. Features a complete ETL pipeline using Google Cloud APIs and Firebase, a dynamic gamification engine, and automated PDF reporting.
-
-**[View Project](https://github.com/Ahmad-Nayfeh/Reading-Tracker-Dashboard-Cloud)**
-
-### 🧠 AI-Powered MRI Brain Tumor Segmentation
-Developed a ResNet-UNet model achieving a **96.34% Dice Score** on the BraTS dataset, outperforming typical human-expert consistency. The end-to-end system includes a robust 3D-to-2D preprocessing pipeline, a hybrid BCE+Dice loss function, and is deployed as an interactive Streamlit app.
-
-**[View Project](https://github.com/Ahmad-Nayfeh/MRI-Tumor-Segmentation)**
-
-### ⚙️ AI-Powered Bearing Fault Diagnosis
-Built a predictive maintenance pipeline using a custom 1D CNN for time-series classification of industrial bearing faults. Addressed severe class imbalance with SMOTE and validated model robustness by adding AWGN, maintaining perfect accuracy at 25% noise and graceful degradation to 87% at 50% noise.
-
-**[View Project](https://github.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis)**
+- **Engineering:** medium-voltage switchgear design, single-line and wiring diagrams
+- **Software:** Python, TypeScript, Kotlin, FastAPI, React, Next.js, Jetpack Compose, Firebase
+- **Machine learning:** PyTorch, computer vision, signal processing, LLM tooling and automation
