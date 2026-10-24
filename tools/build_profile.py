@@ -236,62 +236,7 @@ def header(t, number, title, note):
 
 
 # ---------------------------------------------------------------------------------------------
-# 3. Research: headline numbers, then the thesis in progress.
-# ---------------------------------------------------------------------------------------------
-
-RESEARCH = [
-    dict(code="R-01", big="0.963", unit="Dice", title="MRI tumor segmentation",
-         lines=["Three U-Net variants on BraTS-Africa;", "best with a pretrained ResNet34", "encoder. Slice-level split: optimistic."]),
-    dict(code="R-02", big="25", unit="experiments", title="Distill-SSL",
-         lines=["SimCLR, BYOL and DINO teachers", "distilled into a MobileNetV3-Small", "student on STL-10."]),
-    dict(code="R-03", big="25%", unit="noise, still holds", title="Bearing fault diagnosis",
-         lines=["1D CNN on raw CWRU vibration,", "tested on an unseen motor load.", "Fails past 50% noise."]),
-]
-
-
-def research(t):
-    W, H = 1200, 400
-    cw = W / 3
-    cells = []
-    for i, r in enumerate(RESEARCH):
-        x = i * cw
-        cells.append(f'''
-<g transform="translate({x},0)">
-  <text x="32" y="44" class="m fa" font-size="11" letter-spacing="2">{r['code']}</text>
-  <text x="30" y="122" class="s ink" font-size="64" font-weight="700" letter-spacing="-2">{r['big']}</text>
-  <text x="34" y="150" class="m ac" font-size="13" letter-spacing="1">{r['unit'].upper()}</text>
-  <text x="32" y="196" class="s ink" font-size="19" font-weight="500">{r['title']}</text>
-  {''.join(f'<text x="32" y="{224 + j*21}" class="s mu" font-size="14.5">{l}</text>' for j, l in enumerate(r['lines']))}
-</g>''')
-        if i:
-            cells.append(f'<line x1="{x}" y1="0" x2="{x}" y2="292" stroke="{t["ink"]}" stroke-width="0.8"/>')
-    # Thesis strip: CF image → model → FA image, drawn as three tiles.
-    ty = 292
-    tiles = []
-    gx = 780
-    for k, (label, col) in enumerate([("CF", t["accent"]), ("G(·)", t["ink"]), ("FA", t["trace"])]):
-        x = gx + k * 130
-        if label == "G(·)":
-            tiles.append(f'<rect x="{x}" y="{ty+28}" width="80" height="52" rx="6" fill="none" stroke="{col}" stroke-width="1.8"/>'
-                         f'<text x="{x+40}" y="{ty+60}" text-anchor="middle" class="m ink" font-size="15">G(·)</text>')
-        else:
-            tiles.append(f'<circle cx="{x+40}" cy="{ty+54}" r="27" fill="{col}" fill-opacity="0.18" stroke="{col}" stroke-width="1.8"/>'
-                         f'<circle cx="{x+40}" cy="{ty+54}" r="9" fill="{col}" fill-opacity="0.5"/>'
-                         f'<text x="{x+40}" y="{ty+100}" text-anchor="middle" class="m mu" font-size="11">{label}</text>')
-        if k < 2:
-            tiles.append(f'<path d="M{x+88} {ty+54} h34 m-8 -6 l8 6 l-8 6" fill="none" stroke="{t["muted"]}" stroke-width="1.6"/>')
-    thesis = f'''
-<line x1="0" y1="{ty}" x2="{W}" y2="{ty}" stroke="{t['ink']}" stroke-width="0.8"/>
-<text x="32" y="{ty+34}" class="m fa" font-size="11" letter-spacing="2">M.SC. THESIS · IN PROGRESS</text>
-<text x="32" y="{ty+64}" class="s ink" font-size="19" font-weight="500">Color fundus to fluorescein angiography</text>
-<text x="32" y="{ty+88}" class="s mu" font-size="14.5">Comparing Pix2Pix, CUT, GcGAN, RegGAN and ResViT for retinal image synthesis on MPOS.</text>
-{''.join(tiles)}'''
-    body = f'''{grid(W, H, t)}<rect x="1" y="1" width="{W-2}" height="{H-2}" fill="{t['panel']}" fill-opacity="0.86" stroke="{t['ink']}" stroke-width="2"/>{''.join(cells)}{thesis}'''
-    return svg(W, H, body, t, "", "Research")
-
-
-# ---------------------------------------------------------------------------------------------
-# 4. Lab: one clickable tile per public experiment, each with a small drawn glyph.
+# 3. Lab: one clickable tile per public experiment, each with a small drawn glyph.
 # ---------------------------------------------------------------------------------------------
 
 LAB = [
@@ -368,7 +313,7 @@ def lab_tile(t, item):
 
 
 # ---------------------------------------------------------------------------------------------
-# 5. Apps: phone screenshots.
+# 4. Apps: phone screenshots.
 # ---------------------------------------------------------------------------------------------
 
 PRODUCTS = [
@@ -419,7 +364,7 @@ def product_card(t, p):
 
 
 # ---------------------------------------------------------------------------------------------
-# 6. Stack.
+# 5. Stack.
 # ---------------------------------------------------------------------------------------------
 
 STACK = [
@@ -456,7 +401,7 @@ def stack(t):
 
 def footer(t):
     W, H = 1200, 96
-    cells = [("AUTHOR", "AHMAD NAYFEH"), ("AFFILIATION", "KFUPM"), ("PUBLIC ENTRIES", f"{len(LAB) + 3}"), ("UPDATED", "2026"), ("STATUS", "RUNNING")]
+    cells = [("AUTHOR", "AHMAD NAYFEH"), ("AFFILIATION", "KFUPM"), ("PUBLIC ENTRIES", f"{len(LAB) + len(PRODUCTS)}"), ("UPDATED", "2026"), ("STATUS", "RUNNING")]
     cw = W / len(cells)
     parts = []
     for i, (k, v) in enumerate(cells):
@@ -477,15 +422,13 @@ def main():
             old.unlink()
     for name, t in THEMES.items():
         (OUT / f"hero-{name}.svg").write_text(hero(t))
-        (OUT / f"h-research-{name}.svg").write_text(header(t, "01", "Research", "M.SC. · KFUPM"))
-        (OUT / f"research-{name}.svg").write_text(research(t))
-        (OUT / f"h-lab-{name}.svg").write_text(header(t, "02", "Lab", "EXPERIMENTS AND TOOLS · OPEN SOURCE"))
+        (OUT / f"h-lab-{name}.svg").write_text(header(t, "01", "Lab", "EXPERIMENTS AND TOOLS · OPEN SOURCE"))
         for item in LAB:
             (OUT / f"lab-{item['key']}-{name}.svg").write_text(lab_tile(t, item))
-        (OUT / f"h-apps-{name}.svg").write_text(header(t, "03", "Apps", "SHIPPED · IN USE"))
+        (OUT / f"h-apps-{name}.svg").write_text(header(t, "02", "Apps", "SHIPPED · IN USE"))
         for p in PRODUCTS:
             (OUT / f"card-{p['key']}-{name}.svg").write_text(product_card(t, p))
-        (OUT / f"h-stack-{name}.svg").write_text(header(t, "04", "Stack", "WHAT I WORK WITH"))
+        (OUT / f"h-stack-{name}.svg").write_text(header(t, "03", "Stack", "WHAT I WORK WITH"))
         (OUT / f"stack-{name}.svg").write_text(stack(t))
         (OUT / f"footer-{name}.svg").write_text(footer(t))
     total = sum(f.stat().st_size for f in OUT.glob("*.svg"))
@@ -530,18 +473,6 @@ def readme():
   <a href="https://ahmadnayfeh.vercel.app/resume.pdf"><b>CV</b></a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/ahmad-nayfeh2000/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
   <a href="mailto:ahmadnayfeh2000@gmail.com"><b>Email</b></a>
-</p>
-
-<br>
-
-{pic("h-research", "Research")}
-
-{pic("research", "Research results and thesis")}
-
-<p align="center">
-  <a href="{gh}MRI-Tumor-Segmentation">MRI tumor segmentation</a> &nbsp;·&nbsp;
-  <a href="{gh}Distill-SSL">Distill-SSL</a> &nbsp;·&nbsp;
-  <a href="{gh}AI-Bearing-Diagnosis">Bearing fault diagnosis</a>
 </p>
 
 <br>

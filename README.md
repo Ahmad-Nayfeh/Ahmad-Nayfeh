@@ -9,18 +9,6 @@
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-research-dark.svg"><img src="assets/h-research-light.svg" width="100%" alt="Research"></picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/research-dark.svg"><img src="assets/research-light.svg" width="100%" alt="Research results and thesis"></picture>
-
-<p align="center">
-  <a href="https://github.com/Ahmad-Nayfeh/MRI-Tumor-Segmentation">MRI tumor segmentation</a> &nbsp;·&nbsp;
-  <a href="https://github.com/Ahmad-Nayfeh/Distill-SSL">Distill-SSL</a> &nbsp;·&nbsp;
-  <a href="https://github.com/Ahmad-Nayfeh/AI-Bearing-Diagnosis">Bearing fault diagnosis</a>
-</p>
-
-<br>
-
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-lab-dark.svg"><img src="assets/h-lab-light.svg" width="100%" alt="Lab"></picture>
 
 <p align="center">
