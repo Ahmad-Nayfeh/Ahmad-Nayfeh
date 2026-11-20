@@ -209,7 +209,7 @@ def hero(t):
 </g>'''
     tb_y = H - 60
     cols = [(36, "LOCATION", "RIYADH, SA"), (230, "STUDY", "M.SC. EE · KFUPM"), (450, "THESIS", "COLOR FUNDUS → ANGIOGRAPHY"),
-            (760, "FOCUS", "VISION · SIGNALS · SSL"), (980, "WEB", "AHMADNAYFEH.VERCEL.APP")]
+            (760, "FOCUS", "VISION · SIGNALS · SSL"), (980, "WEB", "AHMADNAYFEH.COM")]
     tb = [f'<line x1="17" y1="{tb_y}" x2="{W-17}" y2="{tb_y}" stroke="{ink}" stroke-width="0.8"/>']
     for i, (x, k, v) in enumerate(cols):
         if i:
@@ -448,8 +448,8 @@ LAB_LINKS = {
     "adaptive": "RL-Adaptive-Filtering-Pathfinding", "simclr": "SimCLR-Augmentations-CIFAR10",
     "wind": "WindPowerForecasting-LSTM-RF", "cnn-depth": "MNIST-CNN-Layer-Analysis", "rdd": "Modified-RDD2022-Dataset",
 }
-APP_LINKS = {"shadhra": "https://shadhra.app", "khatwa": "https://ahmad-nayfeh.github.io/khatwa/",
-             "marathon": "https://ahmad-nayfeh.github.io/marathon/"}
+APP_LINKS = {"shadhra": "https://shadhra.app", "khatwa": "https://ahmadnayfeh.com/apps/khatwa/",
+             "marathon": "https://ahmadnayfeh.com/apps/marathon/"}
 
 
 def pic(name, alt, width="100%"):
@@ -466,11 +466,11 @@ def readme():
             f'  <a href="{gh}{LAB_LINKS[x["key"]]}">{pic("lab-" + x["key"], x["name"], "49%")}</a>' for x in pair) + "\n</p>")
     apps = '<p align="center">\n' + "\n".join(
         f'  <a href="{APP_LINKS[p["key"]]}">{pic("card-" + p["key"], p["name"], "32%")}</a>' for p in PRODUCTS) + "\n</p>"
-    return f'''<a href="https://ahmadnayfeh.vercel.app">{pic("hero", "Ahmad Nayfeh: AI, signal and image processing")}</a>
+    return f'''<a href="https://ahmadnayfeh.com">{pic("hero", "Ahmad Nayfeh: AI, signal and image processing")}</a>
 
 <p align="center">
-  <a href="https://ahmadnayfeh.vercel.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://ahmadnayfeh.vercel.app/resume.pdf"><b>CV</b></a> &nbsp;·&nbsp;
+  <a href="https://ahmadnayfeh.com"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://ahmadnayfeh.com/resume.pdf"><b>CV</b></a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/ahmad-nayfeh2000/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
   <a href="mailto:ahmadnayfeh2000@gmail.com"><b>Email</b></a>
 </p>
