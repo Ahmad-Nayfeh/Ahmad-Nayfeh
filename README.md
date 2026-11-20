@@ -1,8 +1,8 @@
-<a href="https://ahmadnayfeh.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Ahmad Nayfeh: AI, signal and image processing"></picture></a>
+<a href="https://ahmadnayfeh.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Ahmad Nayfeh: AI, signal and image processing"></picture></a>
 
 <p align="center">
-  <a href="https://ahmadnayfeh.vercel.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://ahmadnayfeh.vercel.app/resume.pdf"><b>CV</b></a> &nbsp;·&nbsp;
+  <a href="https://ahmadnayfeh.com"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://ahmadnayfeh.com/resume.pdf"><b>CV</b></a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/ahmad-nayfeh2000/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
   <a href="mailto:ahmadnayfeh2000@gmail.com"><b>Email</b></a>
 </p>
@@ -34,8 +34,8 @@
 
 <p align="center">
   <a href="https://shadhra.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shadhra-dark.svg"><img src="assets/card-shadhra-light.svg" width="32%" alt="Shadhra"></picture></a>
-  <a href="https://ahmad-nayfeh.github.io/khatwa/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-khatwa-dark.svg"><img src="assets/card-khatwa-light.svg" width="32%" alt="Khatwa"></picture></a>
-  <a href="https://ahmad-nayfeh.github.io/marathon/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-marathon-dark.svg"><img src="assets/card-marathon-light.svg" width="32%" alt="Reading Marathon"></picture></a>
+  <a href="https://ahmadnayfeh.com/apps/khatwa/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-khatwa-dark.svg"><img src="assets/card-khatwa-light.svg" width="32%" alt="Khatwa"></picture></a>
+  <a href="https://ahmadnayfeh.com/apps/marathon/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-marathon-dark.svg"><img src="assets/card-marathon-light.svg" width="32%" alt="Reading Marathon"></picture></a>
 </p>
 
 <br>
